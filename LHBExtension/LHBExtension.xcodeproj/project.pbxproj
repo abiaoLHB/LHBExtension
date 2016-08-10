@@ -85,6 +85,7 @@
 		EF4DED941D51F477005B4F8D /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
 		EF4DED951D51F477005B4F8D /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		EF4DED961D51F477005B4F8D /* Utilities.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Utilities.mm; sourceTree = "<group>"; };
+		EF90E39E1D5B78BC0002D365 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 		EF4DED421D51E78B005B4F8D /* LHBExtension */ = {
 			isa = PBXGroup;
 			children = (
+				EF90E39F1D5B78C20002D365 /* Header */,
 				EF4DED861D51F1DF005B4F8D /* Tools */,
 				EF4DED761D51E7B2005B4F8D /* Extension */,
 				EF4DED461D51E78B005B4F8D /* AppDelegate.h */,
@@ -211,6 +213,15 @@
 				EF4DED8D1D51F44B005B4F8D /* RSA.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		EF90E39F1D5B78C20002D365 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				EF90E39E1D5B78BC0002D365 /* Header.h */,
+			);
+			name = Header;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

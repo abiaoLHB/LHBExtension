@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIColor+LHBColorExtension.h"
+#import "Header.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,8 @@
     view.backgroundColor = [UIColor lhb_colorWithHexString:@"FF0000"];
 
     [self.view addSubview:view];
+    
+    NSLog(@"%@",keyPath(view, layer));
 }
 
 @end
