@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIColor+LHBColorExtension.h"
 #import "Header.h"
+#import "Const.h"
 
 @interface ViewController ()
 
@@ -25,6 +26,7 @@
     [self.view addSubview:view];
     
     NSLog(@"%@",keyPath(view, layer));
+    
 }
 
 @end
