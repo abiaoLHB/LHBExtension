@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF20C31F1D5EF79200242ECE /* LHBConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EF20C31E1D5EF79200242ECE /* LHBConst.m */; };
 		EF4DED451D51E78B005B4F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DED441D51E78B005B4F8D /* main.m */; };
 		EF4DED481D51E78B005B4F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DED471D51E78B005B4F8D /* AppDelegate.m */; };
 		EF4DED4B1D51E78B005B4F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DED4A1D51E78B005B4F8D /* ViewController.m */; };
@@ -26,7 +27,6 @@
 		EF4DED971D51F477005B4F8D /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DED921D51F477005B4F8D /* NSData+AES256.m */; };
 		EF4DED981D51F477005B4F8D /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4DED941D51F477005B4F8D /* NSString+AES256.m */; };
 		EF4DED991D51F477005B4F8D /* Utilities.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF4DED961D51F477005B4F8D /* Utilities.mm */; };
-		EF90E3A51D5B7A7F0002D365 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = EF90E3A41D5B7A7F0002D365 /* Const.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF20C31D1D5EF79200242ECE /* LHBConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBConst.h; sourceTree = "<group>"; };
+		EF20C31E1D5EF79200242ECE /* LHBConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBConst.m; sourceTree = "<group>"; };
 		EF4DED401D51E78B005B4F8D /* LHBExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHBExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4DED441D51E78B005B4F8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF4DED461D51E78B005B4F8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,8 +89,6 @@
 		EF4DED951D51F477005B4F8D /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		EF4DED961D51F477005B4F8D /* Utilities.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Utilities.mm; sourceTree = "<group>"; };
 		EF90E39E1D5B78BC0002D365 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Header.h; sourceTree = "<group>"; };
-		EF90E3A31D5B7A7F0002D365 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
-		EF90E3A41D5B7A7F0002D365 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +146,8 @@
 				EF4DED471D51E78B005B4F8D /* AppDelegate.m */,
 				EF4DED491D51E78B005B4F8D /* ViewController.h */,
 				EF4DED4A1D51E78B005B4F8D /* ViewController.m */,
-				EF90E3A31D5B7A7F0002D365 /* Const.h */,
-				EF90E3A41D5B7A7F0002D365 /* Const.m */,
+				EF20C31D1D5EF79200242ECE /* LHBConst.h */,
+				EF20C31E1D5EF79200242ECE /* LHBConst.m */,
 				EF4DED4C1D51E78B005B4F8D /* Main.storyboard */,
 				EF4DED4F1D51E78B005B4F8D /* Assets.xcassets */,
 				EF4DED511D51E78B005B4F8D /* LaunchScreen.storyboard */,
@@ -359,8 +359,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF90E3A51D5B7A7F0002D365 /* Const.m in Sources */,
 				EF4DED901D51F44B005B4F8D /* RSA.m in Sources */,
+				EF20C31F1D5EF79200242ECE /* LHBConst.m in Sources */,
 				EF4DED831D51E7CB005B4F8D /* UIColor+LHBColorExtension.m in Sources */,
 				EF4DED4B1D51E78B005B4F8D /* ViewController.m in Sources */,
 				EF4DED481D51E78B005B4F8D /* AppDelegate.m in Sources */,
